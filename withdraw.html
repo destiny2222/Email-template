@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <link rel="stylesheet" href="assets/fonts/font.css">
+    <style>
+        *{
+            font-family: GT Walsheim Pro;
+        }
+        body{
+            font-family: GT Walsheim Pro;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 15px;
+            color: #828282
+        }
+        .logo{
+            border: 0.5px solid #BDBDBD;
+        }
+        .container{
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            table-layout: fixed;
+            padding: 20px;
+        }
+
+        .wrapper-inner {
+            width: 100%;
+            background-color: #fff;
+            max-width: 670px;
+            Margin: 0 auto;
+        }
+
+        table {
+            border-spacing: 0;
+            font-family: sans-serif;
+            color: #727f80;
+        }
+
+        .verify-btn{
+            background: #F2F2F2;
+            border-radius: 50px;
+            border:1px solid #F2F2F2;
+            padding: 10px 40px;
+            Margin-top:1rem;
+        }
+
+        .verify-btn{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 27px;
+            color: #333333;
+        }
+
+        .verify-btn-submit{
+            background: #F7CC5A;
+            border-radius: 5px;
+            padding: 20px 5rem;
+            border:1px solid #F7CC5A;
+            Margin-top:3rem;
+        }
+
+        button[type=submit]{
+            font-family: GT Walsheim Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 15px;
+            color: #13161D;
+        }
+
+        .btn-submit{
+            background: #F7CC5A;
+            border-radius: 5px;
+            padding: 20px 5rem;
+            border:1px solid #F7CC5A;
+            Margin-top:3rem; 
+            color: #13161D;
+            font-size: 10px;
+            line-height: 15px;
+            font-weight: bold;
+        }
+
+        .primary{
+            color: #6450EF;
+        }
+
+        .success{
+            color: #008000;
+        }
+
+        .danger{
+            color: #ff0000;
+        }
+
+        .fw-bold{
+            font-weight: bold;
+        }
+
+        .table-footer p{
+            line-height: 11px;
+        }
+     
+
+    /*--- End Outer Table 1 --*/
+.main-table-first {
+	width: 100%;
+	max-width: 610px;
+	Margin: 0 auto;
+}
+/*--- Start Two Column Sections --*/
+.two-column {
+    font-size: 0;
+    padding: 5px 0 10px 0;
+}
+.two-column .section {
+    width: 100%;
+    max-width: 240px;;
+    display: inline-block;
+    vertical-align: top;
+}
+.two-column .content-inner {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+.content-inner {
+    width: 100%;
+}
+
+img {
+    border: 0;
+}
+
+#callout {
+    float: right;
+    /* Margin:6% 5% 2% 0; */
+    Margin: 6% -47% 2% 0;
+    height: auto;
+    overflow: hidden;
+}
+#callout img {
+    max-width: 20px;
+}
+.social {
+    list-style-type: none;
+    Margin-top: 1%;
+    padding:0;
+}
+.social li {
+    display: inline-block;
+    text-align: end;
+}
+.social li img {
+    max-width: 15px;
+    Margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 20px;
+}
+/*--- Start Outer Table Banner Image, Text & Button --*/
+
+
+
+a{
+    text-decoration: none;
+    color: #0000ff;
+    font-size: 15px;
+}
+
+/*--- Media Queries --*/
+@media screen and (max-width:768px) {
+#callout {
+	float:none !important;
+	margin: 0% 0% 0% 0;
+	height: auto;
+	text-align:center;
+	overflow: hidden;
+}
+#callout img {
+    max-width:26px !important; 
+}
+.two-column .section-inner {
+	width: 100% !important;
+	max-width: 100% !important;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.btn-submit{
+  padding: 16px 4rem;
+}
+
+
+
+}
+@media screen and (max-width: 400px) {
+	.h1 {
+		font-size: 22px;
+	}
+	.two-column .column{
+		max-width: 100%!important;
+	}
+
+    .btn-submit{
+       padding: 16px 4rem;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 400px) {
+
+	.two-column .column {
+		max-width: 50%!important;
+	}
+
+    .btn-submit{
+       padding: 16px 4rem;
+    } 
+
+}
+
+
+    </style>
+</head>
+
+
+
+<body>
+    <div class="container">
+         <div class="wrapper-inner">
+             <table>
+                 <tr>
+                    <td>
+                        <table width="100%">
+                            <tr>
+                                <td style="text-align:start; padding-top: 10px; padding-bottom:25px; border-bottom:1.6px solid #828282;">
+                                    <a href=""><img src="assets/image/logo.png" width="180" alt="Logo"></a>
+                                </td>
+                            </tr>
+                            
+                            
+                        </table>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="#"><img src="assets/image/icon/withdraw.svg" width="600" style="max-width:100%;" alt="Banner"></a>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td style="padding-top: 1.5rem; color: #13161D; font-size: 12px;line-height: 14px; font-weight: bold;">
+                       <h2>Hello Nolan,</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-top:0.1rem;font-size: 13px;line-height: 15px;">
+                       <p>A new withdrawal request was submitted. Find details below:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-top:0.5rem; color:#828282; font-style:normal;font-weight:400;font-size: 15px;
+                        line-height: 15px;">
+                       <p>
+                           Amount: <span style="color:#333333; font-weight:500;">NGN 52,000</span>
+                       </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="margin:0; color:#828282; font-style:normal;font-weight:400;font-size: 15px;
+                        line-height: 15px;">
+                       <p style="margin:0; padding:0;">  
+                           Account Number:   <span style="color:#333333; font-weight:500;">2070031551</span>
+                       </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-top:0.5rem; color:#828282; font-style:normal;font-weight:400;font-size: 15px;
+                        line-height: 15px;">
+                       <p style="margin:0; padding-top:5px;">     
+                          Account Name: <span style="color:#333333; font-weight:500;"> Omotoyosi Lawal</span>
+                       </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-top:0.5rem; color:#828282; font-style:normal;font-weight:400;font-size: 15px;
+                        line-height: 15px;">
+                       <p>       
+                          Bank: <span style="color:#333333; font-weight:500;"> United Bank for Africa Plc </span>
+                       </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table  width="100%" style="margin-top:3rem; margin-bottom: 1.5rem;">
+                            <tr >
+                                <td>
+                                    <a class="btn-submit">View Transaction</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table width="100%" style="border-spacing: 0; padding-top:2rem;">
+                            <tr>
+                                <td>
+                                    <p>Something not looking right? please <span class="primary">contact support</span> right away.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Thank You for Trading with us!</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <hr style="color: #BDBDBD; Margin: 30px 0 5px 0;">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td class="table-footer" style="padding-top:30px;">
+                                    <a href="#"><img src="assets/image/logo.png" width="160" alt=""></a>
+                                    <p>No stress, no hassel, just alerts</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                
+             </table><!-- main section end -->
+
+             <table class="main-table-first ">
+                <tr>
+                    <td class="two-column">
+
+                            <div class="section">
+                                <table width="100%">
+                                    <tr>
+                                        <td class="inner-td">
+                                            <table class="content-inner">
+                                                <tr >
+                                                    <td align="center" style="text-align:right;">
+                                                        <a href="#"><img src="assets/image/Download.svg" width="110" alt=""></a>
+                                                        <a href="#"><img src="assets/image/google-play-badge 1.svg" width="120" alt=""></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div><!-- end section  -->
+                            <div class="section">
+                                <table width="100%">
+                                    <tr>
+                                        <td class="inner-td">
+                                            <table class="content-inner">
+                                                <tr>
+                                                    <td>
+                                                        <div id="callout">
+                                                            <ul class="social">
+                                                                <li><a href="#"><img src="assets/image/icon/instagram-3 1.svg" alt="instagram"></a></li>
+                                                                <li><a href="#"><img src="assets/image/icon/twitter-3 1.svg" alt="twitter"></a></li>
+                                                                <li><a href="#"><img src="assets/image/icon/whatsapp 1.svg" alt="whatsapp"></a></li>
+                                                                <li><a href="#"><img src="assets/image/icon/facebook-3 1.svg" alt="facebook"></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div><!-- end section  -->
+                    </td><!--- End First Column of Two Columns -->
+                </tr>
+            </table><!-- footer section end here -->
+         </div>
+    </div>
+</body>
+</html>
